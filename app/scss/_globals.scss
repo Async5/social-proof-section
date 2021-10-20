@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  width: 100%;
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.9375rem;
+  background-image: url('../../app/images/bg-pattern-top-mobile.svg'),
+    url('../../app/images/bg-pattern-bottom-mobile.svg');
+  background-repeat: no-repeat no-repeat;
+  background-position: top left, bottom right;
+
+  @include breakpoints-up('lg') {
+    background-image: url('../../app/images/bg-pattern-top-desktop.svg'),
+      url('../../app/images/bg-pattern-bottom-desktop.svg');
+    background-position: top left, 100% 100%;
+  }
+}
+
+.wrapper {
+  max-width: 69.375rem;
+  width: calc(100% - 1.1875rem * 2);
+  margin: 0 auto;
+}
