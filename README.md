@@ -13,7 +13,7 @@
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/social-proof-section-with-htmlscss-ih3rggEQb)
 - Live Site URL: [live site URL here](https://inspiring-kepler-1d3d3c.netlify.app/)
 
 ## My process
